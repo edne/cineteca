@@ -1,0 +1,11 @@
+<!doctype html>
+
+<head>
+  <title>Cineteca</title>
+</head>
+
+<body>
+  {% for video in videos %}
+    <a href="{{ video }}">{{ video }}</a><br>
+  {% endfor %}
+</body>
