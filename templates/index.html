@@ -6,6 +6,6 @@
 
 <body>
   {% for video in videos %}
-    <a href="{{ video }}">{{ video }}</a><br>
+    <a href="{{ video.imdb_id }}">{{ video.title }}</a><br>
   {% endfor %}
 </body>
